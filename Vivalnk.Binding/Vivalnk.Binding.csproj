@@ -49,5 +49,26 @@
       <LinkerFlags>-L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/ -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -Wl,-rpath -Wl,@executable_path/Frameworks</LinkerFlags>
     </NativeReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="VivalnkData.bundle\CheckO2_app_vivalnk_1.0.0.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="VivalnkData.bundle\pause_ranger_data_small.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="VivalnkData.bundle\pause_ranger_out.forest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="VivalnkData.bundle\ranger_data_small.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="VivalnkData.bundle\ranger_out.forest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="VivalnkData.bundle\CardiacModel.momd\CardiacModel.mom" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="VivalnkData.bundle\CardiacModel.momd\VersionInfo.plist" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
