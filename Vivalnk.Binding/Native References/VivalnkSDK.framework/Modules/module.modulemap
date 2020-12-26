@@ -1,0 +1,11 @@
+framework module VivalnkSDK {
+  umbrella header "VivalnkSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module VivalnkSDK.Swift {
+    header "VivalnkSDK-Swift.h"
+    requires objc
+}
